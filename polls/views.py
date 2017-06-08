@@ -6,7 +6,7 @@ from math import sqrt
 
 
 def index(request):
-    return HttpResponse("Fibnonci of 10 using <br> Normal Approach:"+fibnonci_normal(10)+"  <br> Easy Formula Approach"+fibnonci_easy(10))
+    return HttpResponse("Fibnonci of 10 using <br> Normal Approach:"+str(fibnonci_normal(10))+"  <br> Easy Formula Approach"+str(fibnonci_easy(10)))
 
 
 def fibnonci_normal(n):
